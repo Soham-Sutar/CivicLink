@@ -1,0 +1,7 @@
+{
+  "name": "CivicLink",
+  "description": "A platform for citizens to report civic issues and for municipalities to track, manage, and resolve them efficiently. Features user reporting, departmental dashboards with map views, and high-level administrative analytics.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

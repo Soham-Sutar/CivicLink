@@ -1,0 +1,46 @@
+CivicLink Project Setup & Run Instructions
+=========================================
+
+1. Install dependencies:
+   - Open a terminal in the project root folder.
+   - Run:
+     npm install
+
+2. Start Docker services (PostgreSQL & Adminer):
+   - Run:
+     docker-compose up -d
+
+3. Create database tables (if not already created):
+   - Open Adminer at http://localhost:8080
+   - Login with:
+     System: PostgreSQL
+     Server: db
+     Username: civiclink_user
+     Password: your_strong_password
+     Database: civiclink
+   - Run the SQL from DATABASE_SCHEMA.md to create tables.
+
+4. Start backend server:
+   - Open a terminal in the /server folder.
+   - Run:
+     npm install
+     cd server
+     node index.js
+
+5. Start frontend (React/Vite):
+   - Open a terminal in the project root folder.
+   - Run:
+     npm run dev
+   - Open http://localhost:3000 in your browser.
+
+6. Usage notes:
+   - Default admin users are seeded automatically (see server/index.js for emails/passwords).
+   - Users can register, login, submit reports with images and location.
+   - Reports are visible on dashboards and map.
+
+If you encounter errors:
+- Check terminal output for backend and frontend.
+- Make sure Docker containers are running.
+- Increase backend payload limit in server/index.js if needed (express.json({ limit: '50mb' })).
+
+Enjoy using CivicLink!
