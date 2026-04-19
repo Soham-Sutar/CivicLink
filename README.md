@@ -27,7 +27,7 @@
 - **Data Visualization:** Recharts
 - **Icons:** Lucide React
 - **Animations:** Custom CSS & Tailwind transitions
-- **Database (Recommended):** PostgreSQL (Schema provided in `DATABASE_SCHEMA.md`)
+- **Database :** PostgreSQL (Schema provided in `DATABASE_SCHEMA.md`)
 
 ## 📂 Project Structure
 
