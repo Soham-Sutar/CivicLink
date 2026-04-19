@@ -70,9 +70,3 @@
 
 ## 🧠 AI Integration (Gemini)
 The project includes a `geminiService.ts` which simulates the use of the **Google Gemini API**. In a production environment, this service can be extended to use the `@google/genai` SDK to provide real image analysis and natural language processing for automated ticket classification.
-
-## 🎨 Design Principles
-- **Clarity:** Using a clean, professional blue-themed UI (Primary: #3B82F6).
-- **Responsiveness:** Fully functional on mobile and desktop viewports.
-- **Accessibility:** High contrast ratios and intuitive navigation patterns.
-
