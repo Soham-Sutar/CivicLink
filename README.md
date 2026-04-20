@@ -13,7 +13,7 @@
 ### For Department Administrators
 - **Focused Workflows:** Dashboards filtered specifically for their department (e.g., Water, Electricity, Sanitation).
 - **Status Management:** Update report statuses from "Pending" to "In Progress", "Resolved", or "Rejected".
-- **Visual Tracking:** Use map views to identify clusters of issues and optimize field visits.
+- **Visual Tracking:** Use map views to identify clusters of issues and optimize field visits accordingly.
 
 ### For Municipal Leadership (Main Admins)
 - **High-Level Analytics:** Comprehensive charts and data visualizations using **Recharts** to monitor city-wide performance.
